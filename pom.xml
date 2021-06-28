@@ -5,9 +5,17 @@
     <groupId>glucose</groupId>
     <artifactId>GlucoseLib</artifactId>
     <packaging>jar</packaging>
-    <version>0.01-ALPHA</version>
+    <version>1.0.1-BETA</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
-    <name>Glucose</name>
+    <name>GlucoseLib</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
