@@ -5,7 +5,7 @@
     <groupId>glucose</groupId>
     <artifactId>GlucoseLib</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.4-BETA</version>
+    <version>1.0.1-BETA</version>
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>

@@ -1,5 +1,21 @@
 package ml.glucosedev.glucoselib.command;
 
+/**
+ * Command interface
+ *
+ * <code>
+ * \@Command(
+ *  name = "My Command",
+ *  aliases = { "mycommand", "mycmd" },
+ *  permission = "mypermission.mycommand",
+ *  description = "Silly example command",
+ *  usage = "/mycommand",
+ *  )
+ *  public void myCommand({@link CommandCaller} caller) {
+ *      caller.send("Hello!");
+ *  }
+ *  </code>
+ */
 public @interface Command {
     /**
      * Command name
@@ -28,4 +44,10 @@ public @interface Command {
      * @return Command description
      */
     String description();
+    /**
+     * Command usage
+     *
+     * @return Command usage
+     */
+    String usage();
 }

@@ -14,4 +14,10 @@ public interface CommandCaller {
      * @param param Optional args
      */
     void send(String msg, Object... param);
+    /**
+     * If the command caller has the command permission
+     *
+     * @return Has permission --> boolean true/false
+     */
+    boolean hasPermission(String permission);
 }
