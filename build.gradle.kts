@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:RELEASE")
+    implementation("org.jetbrains:annotations:16.0.2")
 }
 
 group = "glucose"
