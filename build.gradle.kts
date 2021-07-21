@@ -19,7 +19,7 @@ dependencies {
 }
 
 group = "glucose"
-version = "1.0.4-BETA"
+version = "1.0.5-BETA"
 description = "GlucoseLib"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
