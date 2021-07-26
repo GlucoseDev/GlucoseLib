@@ -1,5 +1,7 @@
 package ml.glucosedev.glucoselib.entity;
 
+import ml.glucosedev.glucoselib.GameMode;
+
 public interface Player {
     /**
      * Player's username
@@ -18,4 +20,11 @@ public interface Player {
      * @param message message to send
      */
     void send(String message);
+
+    /**
+     * Change player gamemode
+     *
+     * @param gamemode Gamemode to change to
+     */
+    void changeGameMode(GameMode gamemode);
 }

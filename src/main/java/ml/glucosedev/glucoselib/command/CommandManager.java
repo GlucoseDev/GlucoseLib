@@ -9,7 +9,7 @@ public interface CommandManager {
      * @param command Command to register
      */
     @NotNull
-    void registerCommand(@NotNull Command command);
+    void registerCommand(@NotNull CommandListener command);
 
     /**
      * Unregister all commands in a plugin
