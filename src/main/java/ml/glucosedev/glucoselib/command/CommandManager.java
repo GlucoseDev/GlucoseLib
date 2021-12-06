@@ -2,17 +2,22 @@ package ml.glucosedev.glucoselib.command;
 
 import org.jetbrains.annotations.NotNull;
 
-public interface CommandManager {
+import java.util.HashMap;
+
+public class CommandManager {
+    public static HashMap<String, CommandExecutor> cmds = new HashMap<>();
     /**
      * Register a command
      *
-     * @param command Command to register
+     * @param commandExecutor CommandExecutor to register
+     * @param alias Alias for command
      */
-    @NotNull
-    void registerCommand(@NotNull Command command);
+    public static void registerCommand(@NotNull CommandExecutor commandExecutor, String alias) {
+        cmds.put(alias, commandExecutor);
+    }
 
     /**
-     * Unregister all commands in a plugin
+     * Unregister all commands in a plugin (TODO)
      */
-    void unregisterAllCommands();
+    static void unregisterAllCommands() {} // TODO
 }

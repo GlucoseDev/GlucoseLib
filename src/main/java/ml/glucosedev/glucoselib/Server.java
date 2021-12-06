@@ -38,10 +38,4 @@ public interface Server {
      */
     @NotNull
     String glucoseVersion();
-    /**
-     * Get player count
-     *
-     * @return Online player count
-     */
-    int getPlayerCount();
 }

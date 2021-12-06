@@ -20,10 +20,4 @@ public interface CommandCaller {
      * @return Has permission --> boolean true/false
      */
     boolean hasPermission(String permission);
-    /**
-     * Is it a player
-     *
-     * @return if the caller is a player
-     */
-    boolean isPlayer();
 }
