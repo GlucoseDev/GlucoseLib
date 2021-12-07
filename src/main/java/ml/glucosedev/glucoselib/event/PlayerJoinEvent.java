@@ -1,6 +1,6 @@
 package ml.glucosedev.glucoselib.event;
 
-import ml.glucosedev.glucoselib.entity.Player;
+import ml.glucosedev.glucoselib.entity.player.Player;
 
 /**
  * Player join event

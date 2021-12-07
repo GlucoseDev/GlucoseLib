@@ -12,14 +12,18 @@ repositories {
     maven {
         url = uri("https://repo.maven.apache.org/maven2/")
     }
+    maven {
+        url = uri("https://repo.zenoc.net/repository")
+    }
 }
 
 dependencies {
     implementation("org.jetbrains:annotations:16.0.2")
+    implementation("net.minecraft:server:1.17.1")
 }
 
 group = "glucose"
-version = "1.0.6-BETA"
+version = "1.0.7-BETA"
 description = "GlucoseLib"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 

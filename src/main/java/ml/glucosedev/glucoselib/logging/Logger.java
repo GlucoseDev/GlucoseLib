@@ -1,4 +1,4 @@
-package ml.glucosedev.glucoselib;
+package ml.glucosedev.glucoselib.logging;
 
 public interface Logger {
     /**

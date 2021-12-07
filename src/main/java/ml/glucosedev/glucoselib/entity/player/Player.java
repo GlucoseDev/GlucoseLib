@@ -1,4 +1,4 @@
-package ml.glucosedev.glucoselib.entity;
+package ml.glucosedev.glucoselib.entity.player;
 
 public interface Player {
     /**

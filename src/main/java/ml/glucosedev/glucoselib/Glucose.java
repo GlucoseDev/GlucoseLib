@@ -2,6 +2,9 @@ package ml.glucosedev.glucoselib;
 
 import ml.glucosedev.glucoselib.command.CommandManager;
 import ml.glucosedev.glucoselib.event.EventManager;
+import ml.glucosedev.glucoselib.logging.Logger;
+import ml.glucosedev.glucoselib.server.Server;
+import org.jetbrains.annotations.NotNull;
 
 public interface Glucose {
     /**
@@ -31,4 +34,11 @@ public interface Glucose {
      * @return Logger
      */
     Logger getLogger();
+    /**
+     * Get Glucose Server version
+     *
+     * @return Glucose version
+     */
+    @NotNull
+    String glucoseVersion();
 }
