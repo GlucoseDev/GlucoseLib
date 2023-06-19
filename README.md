@@ -1,3 +1,4 @@
+> This is dead. See [GalliumLib](https://github.com/GalliumPowered/GalliumLib) for a rewrtite of this.
 # GlucoseLib
 API for [Glucose](https://github.com/GlucoseDev/Glucose) Minecraft server software
 **Currently under heavy development and is not stable!**
